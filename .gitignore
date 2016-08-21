@@ -1,0 +1,34 @@
+src/*.exe
+src/Gaeacoin
+src/Gaeacoind
+src/test_Gaeacoin
+.*.swp
+*.*~*
+*.bak
+*.rej
+*.orig
+*.o
+*.patch
+.Gaeacoin
+
+# Compilation and Qt preprocessor part
+*.qm
+Makefile
+Gaeacoin-qt
+Gaeacoin-Qt.app
+
+# Unit-tests
+Makefile.test
+Gaeacoin-qt_test
+
+# Resources cpp
+qrc_*.cpp
+
+# Qt creator
+*.pro.user
+
+# Mac specific
+.DS_Store
+build
+
+!src/leveldb-*/Makefile
